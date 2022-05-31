@@ -1,11 +1,11 @@
 ### Project Details 💙
 
 
-➡️Project is for assignment purpose by " Burden Off Consultancy Pvt. Ltd. "
-➡️Client Side Feature Added
-➡️No Backend or Authentication 
-➡️Organization Hierarchy Tree
-➡️Add/Remove/View to the Business Unit
+➡️Project is for assignment purpose by " Burden Off Consultancy Pvt. Ltd. "<br>
+➡️Client Side Feature Added<br>
+➡️No Backend or Authentication<br>
+➡️Organization Hierarchy Tree<br>
+➡️Add/Remove/View to the Business Unit<br>
 
 
 ## Project Screenshots 
