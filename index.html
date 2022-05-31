@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bussiness Organization Units</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+      <ul class="tree">
+        <li>
+          <input type="checkbox" checked="checked" id="c1" />
+          <label class="tree_label" for="c1">timecampus.com</label>
+          <ul>
+            <li>
+              <input type="checkbox" checked="checked" id="c2" />
+              <label for="c2" class="tree_label" ><a href="teams.html" target="blank">Timecampus</a></label>
+              <ul>
+                <li><span class="tree_label">vignesh@timecampus.com</span></li>
+                <li><span class="tree_label">shubhankar@timecampus.com</span></li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="c3" />
+              <label for="c3" class="tree_label">...</label>
+              <ul>
+                <li><span class="tree_label">Level 2</span></li>
+                <li>
+                  <input type="checkbox" id="c4" />
+                  <label for="c4" class="tree_label"><span class="tree_custom">Specified tree item view</span></label>
+                  <ul>
+                    <li><span class="tree_label">Level 3</span></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        
+        
+        <li>
+          <input type="checkbox" id="c5" />
+          <label class="tree_label" for="c5">...</label>
+          <ul>
+            <li>
+              <input type="checkbox" id="c6" />
+              <label for="c6" class="tree_label">Level 1</label>
+              <ul>
+                <li><span class="tree_label">Level 2</span></li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="c7" />
+              <label for="c7" class="tree_label">Level 1</label>
+              <ul>
+                <li><span class="tree_label">Level 2</span></li>
+                <li>
+                  <input type="checkbox" id="c8" />
+                  <label for="c8" class="tree_label">Level 2</label>
+                  <ul>
+                    <li><span class="tree_label">Level 3</span></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+</body>
+</html>
